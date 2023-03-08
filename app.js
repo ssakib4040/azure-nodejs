@@ -12,7 +12,7 @@ const limiter = rateLimit({
   message:
     "Too many requests from this IP in 15 minutes, please try again later",
   store: new MongoStore({
-    uri: "mongodb://127.0.0.1:27017/express-rate-limit",
+    uri: "mongodb+srv://admin:1234567890@cluster0.vivbi45.mongodb.net/express-rate-limit",
     user: "",
     password: "",
     // should match windowMs
